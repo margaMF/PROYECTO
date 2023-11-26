@@ -1,0 +1,18 @@
+
+<svg id="b" data-name="ELEMENTS" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 35.5 35.5">
+  <defs>
+    <linearGradient id="c" data-name="Degradado sin nombre 3" x1="-245.71" y1="1131.23" x2="-222.81" y2="1134.24" gradientTransform="translate(-444.4 1075.85) rotate(35.43) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#674221"/>
+      <stop offset="1" stop-color="#7f4f2a"/>
+    </linearGradient>
+    <linearGradient id="e" data-name="Degradado sin nombre 2" x1="-527.56" y1="844.77" x2="-517.61" y2="825.29" gradientTransform="translate(-45.13 1000.33) rotate(35.43) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c97d30"/>
+      <stop offset="1" stop-color="#815029"/>
+    </linearGradient>
+  </defs>
+  <circle cx="17.75" cy="17.75" r="17.75" fill="#f1cc33"/>
+  <g>
+    <path id="d" data-name="path3858" d="m25.09,26.91c2.18.92,5.35-1.22,5.16-3.57l-6.57-9.5-2.26-1.24-5.06-5.44-.09-.4-.35-.1-.05-.4c-.92.09-1.52.51-1.91,1.32l.36.18v.33s.35.23.35.23l3.38,6.6.46,2.48,6.57,9.5Z" fill="url(#c)"/>
+    <path id="f" data-name="path3840" d="m5.25,23.35c-.12,2.36,2.97,4.62,5.11,3.64l6.69-9.41.39-2.55,3.39-6.61.34-.22-.02-.36.36-.18c-.4-.83-1-1.26-1.89-1.35l-.05.4-.31.12-.1.4-5.05,5.43-2.18,1.28-6.69,9.41Z" fill="url(#e)"/>
+  </g>
+</svg>
