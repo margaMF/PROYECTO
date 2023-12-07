@@ -5,34 +5,39 @@
     font-family: 'AdelleSans', Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
+a{
+    text-decoration: none;
+}
+li{
+    height: 50px;
+}
 
+/*----------Style Menu----------*/
 .container-menu{
     width: 100%;
     height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(236, 226, 214);
+    background-color: #ece2d6;
+    border-bottom: 1px solid #c9c0b5;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 }
-
 .container-logo-menu{
     width: 15%;
     height: 90px;
     display: contents;
 }
-
 .logo{
     width: 200px;
     height: 60px;
 }
-
 .container-links-menu{
     width: 85%;
     height: 90px;
     display: flex;
     justify-content: end;
 }
-
 .menu-links{
     margin-top: 19px;
     list-style: none;
@@ -42,7 +47,6 @@
     align-items: normal;
     margin-right: 1rem;
 }
-
 .menu-links-contact{
     margin-top: 19px;
     list-style: none;
@@ -51,29 +55,63 @@
     text-align: center;
     align-items: normal;
 }
-
 .menu-links li{
     padding: 15px;
     width: 135px;
 }
-
 .menu-links-contact li{
     padding: 15px;
     width: 70px;
 }
-
 .menu-items{
-    color: black;
+    color: #000000;
     font-size: 1rem;
     font-weight: 600;
 }
-
 .icons-nav{
     width: 23px;
     height: 23px;
 }
+.menu-links li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+}
+.menu-links li:hover::before{
+    opacity: 0.8;
+}
+.menu-links li:hover .menu-items{
+    color: #7a6f6f;
+}
+.menu-links-contact li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+}
+.menu-links-contact li:hover::before{
+    opacity: 0.8;
+}
+.menu-links-contact li:hover .menu-items{
+    fill: #7a6f6f;
+}
 
-.container-banner{
+
+/*----------Style content----------*/
+.container-content{
     width: 100%;
     height: 525px;
     background-image: url(../img/banner-portada.jpg);
@@ -82,83 +120,29 @@
     background-position:center;
 }
 
+
+/*----------Style Footer----------*/
 footer{
     width: 100%;
     height: 80px;
-    background-color: rgb(236, 226, 214);
+    background-color: #ece2d6;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .container-buttons-social-media{
     width: 135px;
     margin: auto;
 }
-
 .icon-social-media{
     width: 28px;
     height: 28px;
 }
-
 .button-social-media{
     margin-right: 1.3rem;
 }
-
 .button-social-media:last-child{
     margin-right: 0;
-}
-
-a{
-    text-decoration: none;
-}
-
-li{
-    height: 50px;
-}
-
-.menu-links li::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(180, 170, 160);
-    opacity: 0;
-    pointer-events: none;
-    z-index: -1;
-    transition: opacity 0.3s ease;
-}
-
-.menu-links li:hover::before{
-    opacity: 0.8;
-}
-
-.menu-links li:hover .menu-items{
-    color: rgb(122, 111, 111);
-}
-
-.menu-links-contact li::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(180, 170, 160);
-    opacity: 0;
-    pointer-events: none;
-    z-index: -1;
-    transition: opacity 0.3s ease;
-}
-
-.menu-links-contact li:hover::before{
-    opacity: 0.8;
-}
-
-.menu-links-contact li:hover .menu-items{
-    fill: rgb(122, 111, 111);
 }
 
 
