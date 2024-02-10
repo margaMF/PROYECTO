@@ -8,9 +8,6 @@
 a{
     text-decoration: none;
 }
-li{
-    height: 50px;
-}
 
 /*----------Style Menu----------*/
 .container-menu{
@@ -30,38 +27,44 @@ li{
 }
 .logo{
     width: 200px;
-    height: 60px;
+    height: 50px;
 }
 .container-links-menu{
     width: 85%;
     height: 90px;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .menu-links{
-    margin-top: 19px;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content:space-between;
     text-align: center;
-    align-items: normal;
+    align-items: center;
     margin-right: 1rem;
 }
 .menu-links-contact{
-    margin-top: 19px;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
-    align-items: normal;
+    align-items: center;
 }
 .menu-links li{
-    padding: 15px;
-    width: 135px;
+    width: 145px;
+    height: 20px;
+    border-right: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .menu-links-contact li{
-    padding: 15px;
-    width: 70px;
+    display: flex;
+    align-items: center;
+}
+.menu-links-contact li{
+    padding: 0rem 1.3rem;
 }
 .menu-items{
     color: #000000;
@@ -113,7 +116,6 @@ li{
 /*----------Style content----------*/
 .container-content{
     width: 100%;
-    padding: 2rem;
 }
 .container-content h1{
     margin: 2rem 0rem; 
@@ -129,20 +131,31 @@ li{
     text-align: center;
     margin-top: 1rem;
 }
-.container-button-content{
-    display: flex;
-    justify-content: center;
-    margin: 1.5rem 0rem;
-}
-.sytle-button-beer{
-    width: 180px;
+.c-button-beer{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.container-button-content{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.sytle-button-beer{
     background-color: #958787;
     border: none;
-    border-radius: 5px;
-    padding: 0.5rem;
+    border-radius: 10px;
+    padding: 1rem 1.3rem;
+    cursor: pointer;
+    transition: background .4s;
+}
+.sytle-button-beer:hover{
+    background-color: black;
+}
+.sytle-button-beer p{
+    font-weight: 600;
 }
 .style-icons-content{
     width: 30px;
@@ -158,13 +171,21 @@ li{
     display: flex;
     justify-content: center;
 }
-.style-img-content{
+.style-img-content-r{
     width: 50%;
     height: 400px;
-    background-image: url(../img/equipo.jpg);
+    background-image: url(../img/equipo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+}
+.style-img-content-l{
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/grifo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 
