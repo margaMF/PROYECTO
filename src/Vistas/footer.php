@@ -1,0 +1,31 @@
+<?php
+    echo '<footer>';
+    echo '<div class="container-buttons-social-media">';
+    echo '<a href="https://untappd.com/Brotherhop" target="_blank" class="button-social-media">';
+    echo '<svg class="icon-social-media" id="b" data-name="ELEMENTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.5 35.5">';
+    echo '<circle cx="17.75" cy="17.75" r="17.75" />';
+    echo '<g>';
+    echo '<path id="c" data-name="path3858" d="m25.09,26.91c2.18.92,5.35-1.22,5.16-3.57l-6.57-9.5-2.26-1.24-5.06-5.44-.09-.4-.35-.1-.05-.4c-.92.09-1.52.51-1.91,1.32l.36.18v.33s.35.23.35.23l3.38,6.6.46,2.48,6.57,9.5Z" fill="#fff" />';
+    echo '<path id="d" data-name="path3840" d="m5.25,23.35c-.12,2.36,2.97,4.62,5.11,3.64l6.69-9.41.39-2.55,3.39-6.61.34-.22-.02-.36.36-.18c-.4-.83-1-1.26-1.89-1.35l-.05.4-.31.12-.1.4-5.05,5.43-2.18,1.28-6.69,9.41Z" fill="#fff"/>';
+    echo '</g>';
+    echo '</svg>';
+    echo '</a>';
+    echo '<a href="https://www.instagram.com/brotherhop.beer/" target="_blank" class="button-social-media">';
+    echo '<svg class="icon-social-media" id="b" data-name="ELEMENTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.5 35.5">';
+    echo '<circle cx="17.75" cy="17.75" r="17.69" />';
+    echo '<g>';
+    echo '<path d="m23.24,11.06c-.67,0-1.22.54-1.22,1.22s.54,1.22,1.22,1.22,1.22-.54,1.22-1.22-.54-1.22-1.22-1.22Z" fill="#fff"/>';
+    echo '<path d="m17.84,12.62c-2.82,0-5.11,2.29-5.11,5.11s2.29,5.11,5.11,5.11,5.11-2.29,5.11-5.11-2.29-5.11-5.11-5.11Zm0,8.38c-1.8,0-3.27-1.47-3.27-3.27s1.47-3.27,3.27-3.27,3.27,1.47,3.27,3.27-1.47,3.27-3.27,3.27Z" fill="#fff"/>';
+    echo '<path d="m21.89,28.1h-8.28c-3.44,0-6.23-2.79-6.23-6.23v-8.28c0-3.44,2.79-6.23,6.23-6.23h8.28c3.44,0,6.23,2.79,6.23,6.23v8.28c0,3.44-2.8,6.23-6.23,6.23ZM13.61,9.31c-2.36,0-4.28,1.92-4.28,4.28v8.28c0,2.36,1.92,4.28,4.28,4.28h8.28c2.36,0,4.28-1.92,4.28-4.28v-8.28c0-2.36-1.92-4.28-4.28-4.28h-8.28Z" fill="#fff"/>';
+    echo '</g>';
+    echo '</svg>';
+    echo '</a>';
+    echo '<a href="https://www.facebook.com/BROTHERHOP.BEER" target="_blank" class="button-social-media">';
+    echo '<svg class="icon-social-media" id="b" data-name="ELEMENTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35.5 35.5">';
+    echo '<path d="m35.44,17.75C35.44,7.98,27.52.06,17.75.06S.06,7.98.06,17.75C.06,26.58,6.53,33.9,14.99,35.23v-12.36h-4.49v-5.11h4.49v-3.9c0-4.43,2.64-6.88,6.68-6.88,1.94,0,3.96.35,3.96.35v4.35h-2.23c-2.2,0-2.88,1.36-2.88,2.76v3.32h4.91l-.78,5.11h-4.12v12.36c8.46-1.33,14.93-8.65,14.93-17.48Z" />';
+    echo '<path d="m24.64,22.86l.78-5.11h-4.91v-3.32c0-1.4.69-2.76,2.88-2.76h2.23v-4.35s-2.02-.35-3.96-.35c-4.04,0-6.68,2.45-6.68,6.88v3.9h-4.49v5.11h4.49v12.36c.9.14,1.82.22,2.76.22s1.86-.07,2.76-.22v-12.36h4.12Z" fill="#fff"/>';
+    echo '</svg>';
+    echo '</a>';
+    echo '</div>';
+    echo '</footer>';
+?>

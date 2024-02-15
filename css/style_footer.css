@@ -1,0 +1,23 @@
+/*----------Style Footer----------*/
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #ece2d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-buttons-social-media{
+    width: 135px;
+    margin: auto;
+}
+.icon-social-media{
+    width: 28px;
+    height: 28px;
+}
+.button-social-media{
+    margin-right: 1.3rem;
+}
+.button-social-media:last-child{
+    margin-right: 0;
+}
