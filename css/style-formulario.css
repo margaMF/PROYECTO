@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AdelleSans', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --color-gray: #4d4b4b;
+}
+
+/*----------Style content----------*/
+.c-contact-us{
+    width: 100%;
+    position: relative;
+    width: 100%;
+    height: 560px;
+    background-image: url(../img/lupulo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-content{
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+}
+.c-info-cotact{
+    width: 30%;
+    background-color: #ffffff;
+    line-height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-all-contact{
+    width: 100%;
+    padding: 8rem 0rem;
+    border-right: 1px solid gray;
+}
+.c-form{
+    width: 70%;
+    background-color: lightgreen;
+    padding: 1rem;
+}
+.c-contact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3.7rem;
+}
+.c-icon{
+    width: 12px;
+    fill: var(--color-gray);
+    margin-right: 0.5rem;
+}
+.c-contact p{
+    font-size: 0.8rem;
+    color: var(--color-gray);
+}
+.c-contact-social-media{
+    text-align: center;
+    margin-top: 2rem;
+}
+.c-contact-social-media .icon-social-media{
+    width: 25px;
+    fill: var(--color-gray);
+}
