@@ -12,8 +12,9 @@
     <div class="container-all">
         <?php include 'menu.php';?>
             <div class="c-contact-us">
-                <h1>¿En qué podemos ayudarte?</h1>
-                <div class="container-content">
+                <div class="c-body-form">
+                    <h1>¿En qué podemos ayudarte?</h1>
+                    <div class="container-content">
                     <div class="c-info-cotact">
                         <div class="c-all-contact">
                             <div class="c-contact">
@@ -66,20 +67,31 @@
                         </div>
                     </div>
                     <div class="c-form">
-                        <form action="" method="post">
+                        <form action="#" method="post">
+                            <div class="c-inputs-form">
                                 <label for="name">Nombre:</label>
-                                <input type="text" id="name" name="name" value="" placeholder="Escribe tu nombre"><br>
+                                <input type="text" id="name" name="name" value="" placeholder="Escribe tu nombre">
+                            </div>
+                            <div class="c-inputs-form">
                                 <label for="surnames">Apellidos:</label>
-                                <input type="text" id="surnames" name="surnames" value="" placeholder="Escribe tus apellidos"><br>
+                                <input type="text" id="surnames" name="surnames" value="" placeholder="Escribe tus apellidos">
+                            </div>
+                            <div class="c-inputs-form">
                                 <label for="email">Correo:</label>
-                                <input type="email" name="email" id="email" placeholder="Escribe tu correo electrónico"><br>
+                                <input type="email" name="email" id="email" placeholder="Escribe tu correo electrónico">
+                            </div>
+                            <div class="c-inputs-form">
                                 <label for="subject">Asunto:</label>
-                                <input type="text" name="subject" id="subject" placeholder="Indicanos el motivo..."><br>
+                                <input type="text" name="subject" id="subject" placeholder="Indícanos el motivo">
+                            </div>
+                            <div class="c-inputs-form">
                                 <label for="message">Mensaje:</label>
-                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                                <input type="submit" value="Enviar">
+                                <textarea name="message" id="message" cols="100" rows="3" placeholder="Mensaje..."></textarea>
+                            </div>
+                            <input class="input-submit" type="submit" value="Enviar">
                         </form>
                     </div>
+                </div>
                 </div>
             </div>
 
