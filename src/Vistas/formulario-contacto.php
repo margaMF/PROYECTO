@@ -13,7 +13,7 @@
         <?php include 'menu.php';?>
             <div class="c-contact-us">
                 <div class="c-body-form">
-                    <h1>¿En qué podemos ayudarte?</h1>
+                    <h1>Contacta con nosotros</h1>
                     <div class="container-content">
                     <div class="c-info-cotact">
                         <div class="c-all-contact">
@@ -70,15 +70,15 @@
                         <form action="#" method="post">
                             <div class="c-inputs-form">
                                 <label for="name">Nombre:</label>
-                                <input type="text" id="name" name="name" value="" placeholder="Escribe tu nombre">
+                                <input type="text" name="name" id="id_name" size="40" placeholder="Escribe tu nombre" required>
                             </div>
                             <div class="c-inputs-form">
                                 <label for="surnames">Apellidos:</label>
-                                <input type="text" id="surnames" name="surnames" value="" placeholder="Escribe tus apellidos">
+                                <input type="text" name="surname" id="id_surname" size="40" placeholder="Escribe tus apellidos" required>
                             </div>
                             <div class="c-inputs-form">
                                 <label for="email">Correo:</label>
-                                <input type="email" name="email" id="email" placeholder="Escribe tu correo electrónico">
+                                <input type="email" name="email" id="id_email" size="45" placeholder="Escribe tu correo electrónico" required>
                             </div>
                             <div class="c-inputs-form">
                                 <label for="subject">Asunto:</label>

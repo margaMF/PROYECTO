@@ -8,17 +8,23 @@
 a{
     text-decoration: none;
 }
+:root{
+    --color-gray: #4d4b4b;
+    --color-forms: #212529;
+    --color-forms-text: #f0f0f0;
+}
 
 
 /*----------Style content----------*/
 .container-content{
     width: 100%;
-    margin-top: 8rem;
+    margin-top: 3rem;
 }
 .container-content h1{
-    margin: 2rem 0rem; 
+    margin: 1rem 0rem; 
     text-align: center;
     font-weight: 600;
+    color: var(--color-forms);
 }
 .container-text-content{
     width: 65%;
@@ -42,10 +48,10 @@ a{
     margin: 2rem;
 }
 .sytle-button-beer{
-    background-color: #958787;
+    background-color: var(--color-forms);
     border: none;
     border-radius: 10px;
-    padding: 1rem 1.3rem;
+    padding: 1rem;
     cursor: pointer;
     transition: background .4s;
 }

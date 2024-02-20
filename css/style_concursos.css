@@ -8,6 +8,11 @@
 a{
     text-decoration: none;
 }
+:root{
+    --color-gray: #4d4b4b;
+    --color-forms: #212529;
+    --color-forms-text: #f0f0f0;
+}
 
 /*----------Style content----------*/
 .container-content{
@@ -17,115 +22,123 @@ a{
 .container-content h1{
     font-size: 1.8rem;
     margin: 2rem 0rem;
+    font-weight: 600;
 }
-.c-all-beer{
+.c-all-awards{
     width: 100%;
 }
-.c-line-beers{
+.c-line-awards{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1.5rem;
-    margin-top: 7rem;
+    margin-bottom: 1.5rem;
 }
-.c-beer{
-    width: 35%;
-    height: 280px;
+.c-awards{
+    width: 25%;
+    height: 500px;
     position: relative;
-    filter: drop-shadow(0px 4px 5px rgba(0,0,0,.1));
     cursor: pointer;
 }
-.img-beer-1{
-    background-image: url(../img/blackmaze.jpg);
+.img-awards-1{
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/toutatis.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter: grayscale(100%);
 }
-.img-beer-2{
-    background-image: url(../img/gringo.jpg);
+.img-awards-2{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/moscart1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter: grayscale(100%);
 }
-.img-beer-3{
-    background-image: url(../img/killing-03.jpg);
+.img-awards-3{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/arta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter: grayscale(100%);
 }
-.img-beer-4{
-    background-image: url(../img/roots-02.jpg);
+.img-awards-4{
+    width: 100%;
+    height:250px;
+    background-image: url(../img/equipo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter: grayscale(100%);
 }
-.img-beer-5{
+.img-awards-5{
+    width: 100%;
+    height:250px;
     background-image: url(../img/petit.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter: grayscale(100%);
 }
-.img-beer-6{
+.img-awards-6{
+    width: 100%;
+    height:250px;
     background-image: url(../img/golden.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter: grayscale(100%);
 }
-.img-beer-7{
+.img-awards-7{
+    width: 100%;
+    height:250px;
     background-image: url(../img/moscart.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter: grayscale(100%);
 }
-.img-beer-8{
+.img-awards-8{
+    width: 100%;
+    height:250px;
     background-image: url(../img/kungfutiger.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+    filter: grayscale(100%);
 }
-.c-style-beer{
-    margin-top: -2.1rem;
+.c-banner{
     width: 100%;
-    background-color: black;
-    padding: 0.5rem;
-    opacity: 0.85;
+    height:560px;
+    background-image: url(../img/seleccion-birras.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
 }
-.c-style-beer p{
-    color: white;
-    text-align: center;
+.c-awards h2{
+    color: black;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.c-awards h3{
+    color: var(--color-gray);
     font-size: 1rem;
+    margin-top: 0.5rem;
 }
-.c-link-recipe{
-    border: none;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    padding: 0.8rem;
-    position: absolute;
-    bottom: 0;
-    display: none;
-    transform-origin: bottom;
-    transform: translateY(40px);
-    transition: transform 1s cubic-bezier(0.2, 0.8, 0.2, 1);
-    cursor: pointer;
-}
-.c-link-recipe svg{
-    width: 22px;
-    fill: black;
-    margin-right: 0.5rem;
-}
-.c-link-recipe p{
+.c-awards p{
+    color: black;
     font-size: 1rem;
+    margin-top: 1.3rem;
+    line-height: 1.3rem;
 }
-.c-beer:hover .c-link-recipe{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+span{
+    font-style: italic;
+    color: var(--color-gray);
 }
-
-
-
