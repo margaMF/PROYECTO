@@ -1,0 +1,7 @@
+-Eliminar la tabla barrelProject y ponemos sus atributos en la tabla cerevza. Añadimos los atributos a esa tabla y luego con un if elegimos
+las cervezas de un proyecto u otro.
+
+-La relación entre la tabla de concursos y la tabla de recetas tiene que ser el beerName? Revisar cual es la relación.
+
+Para próxima visita:
+Generar el script, meter datos y realizar las consultas necesarias para imprimir los datos de cada página. 

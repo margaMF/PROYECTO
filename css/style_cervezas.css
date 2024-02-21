@@ -158,35 +158,40 @@ a{
 .c-beer:hover .c-button{
     opacity: 1;
 }
+
+/*------Style pop-up------*/
 .c-popup{
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #00000080;
-    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.502);
     z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
+    display: none;
 }
-.body-popup {
-    background-color: #fff;
-    width: 55%;
-    height: 500px;
+/* Asi como esta la funcion ahora no es necesario, revisar hacer la funcion cambiando la clase */
+.c-popup.visible {
+    display: block; /* Muestra el popup cuando tiene la clase "visible" */
 }
-.c-content-popup{
+.body-popup{
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-content-popup{
+    width: 70%;
+    background-color: #fff;
+    padding: 2rem;
 }
 .c-button-close{
     width: 100%;
-    padding: 1rem 1.5rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-bottom: 1rem;
 }
 .c-button-close button{
     background-color: transparent;
@@ -198,53 +203,126 @@ a{
     fill: var(--color-forms);
 }
 .c-content-beer{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-img-beer{
+    width: 50%;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0rem 2.5rem;
+    background-color: pink;
 }
-.c-img-beer{
-    width: 40%;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.img-beer{
-    width: 90%;
-    height: 200px;
+.img-popup-1{
+    width: 100%;
+    height: 100%;
     background-image: url(../img/blackmaze.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
 }
+.img-popup-2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/gringo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.img-popup-3{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/killing-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.img-popup-4{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/petit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.img-popup-5{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/golden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.img-popup-6{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/moscart.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
 .c-info-beer{
-    width: 60%;
-    height: 300px;
+    width: 50%;
     padding: 1rem;
     padding-left: 1.5rem;
 }
-.c-title-beer{
-    width: 100%;
-    border-bottom: 2px solid var(--color-gray);
-    padding-bottom: 0.5rem;
-}
-.c-title-beer h1{
+.c-info-beer h1{
     font-size: 2rem;
     color: var(--color-forms);
+    font-weight: 600;
+}
+.c-info-style{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-forms);
+    padding: 0rem 0.5rem;
+    margin-top: 0.5rem;
+}
+.c-abv{
+    width: 50%;
+}
+.c-icons-beer{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 .c-info-beer h2{
-    font-size: 1.3rem;
-    margin-top: 1rem;
-}
-.c-info-beer h3{
     font-size: 1rem;
-    margin-top: 0.3rem;
+    color:var(--color-forms-text);
 }
 .c-info-beer p{
     font-size: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     line-height: 1.4rem;
+    color: var(--color-forms);
+}
+.icons-beer {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.icons-beer-add{
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.c-icon-vainilla{
+    width: 28px;
+    fill: var(--color-forms-text); 
+}
+.c-icon-beer-wheat{
+    width: 12px;
+    fill: var(--color-forms-text);
+}
+.c-icon-beer{
+    width: 18px;
+    fill:var(--color-forms-text);
 }
