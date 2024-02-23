@@ -26,7 +26,7 @@
     echo '<ul class="menu-links">';
     echo '<li><a href="../Vistas/nosotros.php" class="menu-items">Nosotros</a></li>';
     echo '<li><a href="../Vistas/cervezas.php" class="menu-items">Cervezas</a></li>';
-    echo '<li><a href="" class="menu-items">Barrel Project</a></li>';
+    echo '<li><a href="../Vistas/barrel-project.php" class="menu-items">Barrel Project</a></li>';
     echo '<li><a href="../Vistas/concursos.php" class="menu-items">Concursos</a></li>';
     echo '</ul>';
     echo '<ul class="menu-links-contact">';

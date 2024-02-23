@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'AdelleSans', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --color-gray: #4d4b4b;
+    --color-forms: #212529;
+    --color-forms-text: #f0f0f0;
+}
+
+/*----------Style content----------*/
+.container-content {
+    width: 100%;
+    position: relative;
+    z-index: 998;
+    margin-top: 5.6rem;
+}
+.c-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+.c-title h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+}
+.c-title h2{
+    font-size: 2rem;
+    color: white;
+}
+.c-banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/barrel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 998;
+    top: 5rem;
+}
+.body-info{
+    position: relative;
+    z-index: 999;
+    margin-top: 36rem;
+}
+.c-front{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 998;
+}
+.c-info-project{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+}
+.c-project{
+    width: 70%;
+    padding: 2rem;
+}
+.c-project h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.c-project p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    text-align: justify;
+}
+.style-line{
+    font-weight: 600;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+}
+.c-img-barrel{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.img-barrel-1{
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/barrica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-barrel-2{
+    width: 50%;
+    height: 400px;
+    background-image: url(../img/gerds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.c-follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+.c-follow h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.c-follow h3{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 1rem;
+}
+.c-banner-footer{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/pellicle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
