@@ -33,6 +33,7 @@
                     <div class="c-img-barrel">
                         <div class="img-barrel-1"></div>
                         <div class="img-barrel-2"></div>
+                        <div class="img-barrel-3"></div>
                     </div>
                 </div>
                 <div class="c-banner-footer">

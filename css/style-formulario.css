@@ -39,8 +39,8 @@ a{
     align-items: center;
     background-color: white;
     width: 50%;
-    height: 510px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
 }
 .container-content{
     display: flex;
@@ -139,8 +139,12 @@ input:focus{
 h1{
     color: var(--color-forms);
     font-weight: 700;
-    margin-top: 1.5rem;
     font-size: 1.8rem;
+}
+h2{
+    color: var(--color-forms);
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 ::placeholder{
     font-size: 0.8rem;

@@ -14,85 +14,155 @@ a{
     --color-forms-text: #f0f0f0;
 }
 
-
 /*----------Style content----------*/
-.container-content{
+.container-content {
     width: 100%;
-    margin-top: 3rem;
     position: relative;
-    z-index: 999;
-    margin-top: 8rem;
+    z-index: 998;
+    margin-top: 5.6rem;
 }
-.container-content h1{
-    margin: 1rem 0rem; 
-    text-align: center;
-    font-weight: 600;
-    color: var(--color-forms);
-    font-size: 2rem;
-}
-.container-text-content{
-    width: 65%;
-    margin: auto;
-}
-.container-text-content p{
-    font-size: 1.2rem;
-    text-align: center;
-    margin-top: 1rem;
-}
-.c-button-beer{
-    width: 100%;
+.c-title{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 999;
 }
-.container-button-content{
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
-}
-.sytle-button-beer{
-    background-color: var(--color-forms);
-    border: none;
-    border-radius: 10px;
-    padding: 1rem;
-    cursor: pointer;
-    transition: background .4s;
-}
-.sytle-button-beer:hover{
-    background-color: black;
-}
-.sytle-button-beer p{
+.c-title h1{
+    font-size: 5rem;
     font-weight: 600;
-}
-.style-icons-content{
-    width: 30px;
-    height: 30px;
-    fill: white;
-}
-.sytle-button-beer p{
     color: white;
 }
-.container-img-content{
-    width: 100%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
+.c-title h2{
+    font-size: 2rem;
+    color: white;
 }
-.style-img-content-r{
-    width: 50%;
-    height: 400px;
+.c-banner{
+    width: 100%;
+    height: 500px;
     background-image: url(../img/equipo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 998;
+    top: 5.6rem;
 }
-.style-img-content-l{
-    width: 50%;
+.body-info{
+    position: relative;
+    z-index: 999;
+    margin-top: 36rem;
+}
+.c-front{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 998;
+}
+.c-info-project{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: white;
+}
+.c-project{
+    width: 70%;
+    padding: 2rem;
+}
+.c-project h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.c-project p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    text-align: justify;
+}
+.style-highlight{
+    font-weight: 600;
+    text-align: center !important;
+    font-size: 1.5rem !important;
+}
+.c-img-barrel{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.img-barrel-1{
+    width: 70%;
+    height: 400px;
+    background-image: url(../img/equipo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-barrel-2{
+    width: 70%;
     height: 400px;
     background-image: url(../img/grifo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
-
+.c-follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+.c-follow h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+.c-follow h3{
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 1rem;
+    width: 70%;
+}
+.c-banner-footer{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/mosto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-button-access{
+    margin-top: 2rem;
+    width: 10%;
+}
+.c-button-access button{
+    border: none;
+    background-color: var(--color-forms);
+    padding: 1rem;
+    width: 100%;
+    transition: background .3s;
+}
+.c-button-access button:hover{
+    background-color: black;
+}
+.c-button-access p{
+    font-size: 1rem;
+    color: var(--color-forms-text);
+}

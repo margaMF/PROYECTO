@@ -32,7 +32,7 @@
                         </div>
                         <div class="c-body-button"></div>
                         <div class="c-button">
-                            <button class="c-link-recipe">
+                            <button class="c-link-recipe" id="recipeButton">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.979 196.979"
                                     xml:space="preserve">
@@ -62,7 +62,7 @@
                         </div>
                         <div class="c-body-button"></div>
                         <div class="c-button">
-                            <button class="c-link-recipe">
+                            <button class="c-link-recipe" id="recipeButton">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.979 196.979"
                                     xml:space="preserve">
@@ -92,7 +92,7 @@
                         </div>
                         <div class="c-body-button"></div>
                         <div class="c-button">
-                            <button class="c-link-recipe">
+                            <button class="c-link-recipe" id="recipeButton">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.979 196.979"
                                     xml:space="preserve">
@@ -124,7 +124,7 @@
                         </div>
                         <div class="c-body-button"></div>
                         <div class="c-button">
-                            <button class="c-link-recipe">
+                            <button class="c-link-recipe" id="recipeButton">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.979 196.979"
                                     xml:space="preserve">
@@ -154,7 +154,7 @@
                         </div>
                         <div class="c-body-button"></div>
                         <div class="c-button">
-                            <button class="c-link-recipe">
+                            <button class="c-link-recipe" id="recipeButton">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.979 196.979"
                                     xml:space="preserve">
@@ -184,7 +184,7 @@
                         </div>
                         <div class="c-body-button"></div>
                         <div class="c-button">
-                            <button type="button" class="c-link-recipe">
+                            <button type="button" class="c-link-recipe" id="recipeButton">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 196.979 196.979"
                                     xml:space="preserve">
@@ -212,11 +212,11 @@
             </div>
         </div>
 
-        <div class="c-popup">
+        <div class="c-popup" id="popup">
             <div class="body-popup">
                 <div class="c-content-popup">
                         <div class="c-button-close">
-                            <button class="close-popup-btn">
+                            <button class="close-popup-btn" id="closePopupBtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
                             </button>
                         </div>
@@ -244,18 +244,20 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem hic praesentium nisi mollitia id maxime fugit accusamus sapiente veritatis ipsa.</p>
+                                <p><span class="subtitles">Maltas:</span> 90% PALE, 5% CRYSTAL, 5% CHOCOLATE.</p>
+                                <p class="style-text"><span class="subtitles">Lúpulos:</span> 60g NUGGET - 30 min.</p>
+                                <p class="style-text"><span class="subtitles">Levadura:</span> California ALE.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="c-popup">
+        <div class="c-popup" id="popup">
             <div class="body-popup">
                 <div class="c-content-popup">
                         <div class="c-button-close">
-                            <button class="close-popup-btn">
+                            <button class="close-popup-btn" id="closePopupBtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
                             </button>
                         </div>
@@ -283,18 +285,20 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem hic praesentium nisi mollitia id maxime fugit accusamus sapiente veritatis ipsa.</p>
+                                <p><span class="subtitles">Maltas:</span> 95% PALE, 5% CRYSTAL.</p>
+                                <p class="style-text"><span class="subtitles">Lúpulos:</span> 30g COLUMBUS - 60 min. / 50g MOSAIC - 0 min.</p>
+                                <p class="style-text"><span class="subtitles">Levadura:</span> California ALE.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="c-popup">
+        <div class="c-popup" id="popup">
             <div class="body-popup">
                 <div class="c-content-popup">
                         <div class="c-button-close">
-                            <button class="close-popup-btn">
+                            <button class="close-popup-btn" id="closePopupBtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
                             </button>
                         </div>
@@ -325,18 +329,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem hic praesentium nisi mollitia id maxime fugit accusamus sapiente veritatis ipsa.</p>
+                                <p><span class="subtitles">Maltas:</span> 60% PALE, 40% AVENA.</p>
+                                <p class="style-text"><span class="subtitles">Lúpulos:</span> 60g NUGGET - 0 min. / 100g CITRA - DDH.</p>
+                                <p class="style-text"><span class="subtitles">Levadura:</span> English ALE.</p>
+                                <p class="style-text"><span class="subtitles">Adjunto:</span> Vainilla 10g.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="c-popup">
+        <div class="c-popup" id="popup">
             <div class="body-popup">
                 <div class="c-content-popup">
                         <div class="c-button-close">
-                            <button class="close-popup-btn">
+                            <button class="close-popup-btn" id="closePopupBtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
                             </button>
                         </div>
@@ -367,18 +374,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem hic praesentium nisi mollitia id maxime fugit accusamus sapiente veritatis ipsa.</p>
+                                <p><span class="subtitles">Maltas:</span> 90% PILSEN, 10% TRIGO.</p>
+                                <p class="style-text"><span class="subtitles">Lúpulos:</span> 20g FUGGLES - 60 min.</p>
+                                <p class="style-text"><span class="subtitles">Levadura:</span> BRETTANOMYCES.</p>
+                                <p class="style-text"><span class="subtitles">Barrica:</span> Maduración de 1 año.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="c-popup">
+        <div class="c-popup" id="popup">
             <div class="body-popup">
                 <div class="c-content-popup">
                         <div class="c-button-close">
-                            <button class="close-popup-btn">
+                            <button class="close-popup-btn" id="closePopupBtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
                             </button>
                         </div>
@@ -409,18 +419,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem hic praesentium nisi mollitia id maxime fugit accusamus sapiente veritatis ipsa.</p>
+                                <p><span class="subtitles">Maltas:</span> 100% PILSEN.</p>
+                                <p class="style-text"><span class="subtitles">Lúpulos:</span> 25g SAAZ - 30 min.</p>
+                                <p class="style-text"><span class="subtitles">Levadura:</span> LACTOBACILLUS.</p>
+                                <p class="style-text"><span class="subtitles">Barrica:</span> Maduración 3 meses.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="c-popup">
+        <div class="c-popup" id="popup">
             <div class="body-popup">
                 <div class="c-content-popup">
                         <div class="c-button-close">
-                            <button class="close-popup-btn">
+                            <button class="close-popup-btn" id="closePopupBtn">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
                             </button>
                         </div>
@@ -451,7 +464,10 @@
                                         </div>
                                     </div>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem hic praesentium nisi mollitia id maxime fugit accusamus sapiente veritatis ipsa.</p>
+                                <p><span class="subtitles">Maltas:</span> 90% PALE, 10% PILSEN.</p>
+                                <p class="style-text"><span class="subtitles">Lúpulos:</span> 40g EKUANOT - 60 min.</p>
+                                <p class="style-text"><span class="subtitles">Levadura:</span> Saison.</p>
+                                <p class="style-text"><span class="subtitles">Adjunto:</span> 100 g/l Mango.</p>
                             </div>
                         </div>
                     </div>

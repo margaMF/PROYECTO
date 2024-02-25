@@ -205,9 +205,8 @@ a{
     left: 0;
     display: none;
 }
-/* Asi como esta la funcion ahora no es necesario, revisar hacer la funcion cambiando la clase */
-.c-popup.visible {
-    display: block; /* Muestra el popup cuando tiene la clase "visible" */
+#popup.visible {
+    display: block; 
 }
 .body-popup{
     width: 100%;
@@ -359,4 +358,10 @@ a{
 .c-icon-beer{
     width: 18px;
     fill:var(--color-forms-text);
+}
+.style-text{
+    margin-top: 0.5rem !important;
+}
+.subtitles{
+    font-weight: 600;
 }

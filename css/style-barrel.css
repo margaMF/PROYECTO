@@ -50,7 +50,7 @@ a{
     align-items: center;
     position: fixed;
     z-index: 998;
-    top: 5rem;
+    top: 5.6rem;
 }
 .body-info{
     position: relative;
@@ -96,24 +96,32 @@ a{
     font-size: 1.5rem !important;
 }
 .c-img-barrel{
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+
 }
 .img-barrel-1{
-    width: 50%;
-    height: 400px;
+    width: 32%;
+    height: 350px;
     background-image: url(../img/barrica.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .img-barrel-2{
-    width: 50%;
-    height: 400px;
+    width: 32%;
+    height: 350px;
     background-image: url(../img/gerds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.img-barrel-3{
+    width: 32%;
+    height: 350px;
+    background-image: url(../img/barrel1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

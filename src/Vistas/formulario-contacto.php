@@ -13,7 +13,8 @@
         <?php include 'menu.php';?>
             <div class="c-contact-us">
                 <div class="c-body-form">
-                    <h1>Contacta con nosotros</h1>
+                    <h1>¿Quieres unirte a Brotherhop?</h1>
+                    <h2>Contacta con nosotros</h2>
                     <div class="container-content">
                     <div class="c-info-cotact">
                         <div class="c-all-contact">
