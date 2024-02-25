@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../css/style_cervezas.css">
     <link rel="stylesheet" href="../../css/style_menu.css">
     <link rel="stylesheet" href="../../css/style_footer.css">
+    <link rel="icon" href="../../img/imagotipo.png" type="image/x-icon">
     
 </head>
 

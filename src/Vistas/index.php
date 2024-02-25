@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../css/style_index.css">
     <link rel="stylesheet" href="../../css/style_menu.css">
     <link rel="stylesheet" href="../../css/style_footer.css">
+    <link rel="icon" href="../../img/imagotipo.png" type="image/x-icon">
 </head>
 <body>
     <div class="container-all">
@@ -36,5 +37,6 @@
         </div>
 
     </div>
+    <script src="../Negocio/script-edad.js"></script>
 </body>
 </html>

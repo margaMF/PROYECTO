@@ -5,14 +5,14 @@ window.onload = function() {
     
     recipeButtons.forEach(function(button, index) {
         button.addEventListener('click', function(event) {
-            event.preventDefault(); // Evita el comportamiento predeterminado del enlace
+            event.preventDefault();
             popups[index].classList.add('visible');
         });
     });
 
     closeButtons.forEach(function(closeButton, index) {
         closeButton.addEventListener('click', function(event) {
-            event.stopPropagation(); // Evita que el evento se propague más allá del botón de cerrar
+            event.stopPropagation();
             var popup = closeButton.closest('.c-popup');
             popup.classList.remove('visible');
         });
