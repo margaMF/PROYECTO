@@ -51,8 +51,9 @@ a{
 .c-infobeer{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 .c-inputs-form{
     width: 100%;
@@ -60,10 +61,12 @@ a{
 }
 .c-inputs-form-name{
     width: 60%;
-    margin-right: 1rem;
 }
 .c-inputs-form-style{
     width: 40%;
+}
+.c-inputs-form-style-ABV{
+    width: 20%;
 }
 .c-inputs-form-file{
    margin-top: 1rem;

@@ -25,8 +25,12 @@
                                         <input class="style-inputs" type="text" name="name" id="id_name" size="40" placeholder="Nombre de la cerveza" required>
                                     </div>
                                     <div class="c-inputs-form-style">
-                                        <label for="surnames">Estilo - ABV:</label>
-                                        <input class="style-inputs" type="text" name="surname" id="id_surname" size="40" placeholder="Escribe el estilo y el alcohol" required>
+                                        <label for="style">Estilo:</label>
+                                        <input class="style-inputs" type="text" name="style" id="id_style" size="40" placeholder="Escribe el estilo" required>
+                                    </div>
+                                    <div class="c-inputs-form-style-ABV">
+                                        <label for="ABV">ABV:</label>
+                                        <input class="style-inputs" type="text" name="ABV" id="id_abv" size="20" placeholder="Escribe el alcohol" required>
                                     </div>
                                 </div>
                                 <div class="c-inputs-form-file">
@@ -34,8 +38,8 @@
                                     <input class="input-img" type="file" id="img-recipe" name="img-recipe" required>
                                 </div>
                                 <div class="c-inputs-form">
-                                    <label for="message">Receta:</label>
-                                    <textarea name="message" id="message" cols="100" rows="8" placeholder="Escribe tu receta..."></textarea>
+                                    <label for="recipe">Receta:</label>
+                                    <textarea name="recipe" id="recipe" cols="100" rows="8" placeholder="Escribe tu receta..."></textarea>
                                 </div>
                                 <input class="input-submit" type="submit" value="Enviar">
                             </form>

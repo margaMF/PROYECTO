@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brotherhop | Recetas</title>
+    <title>Brotherhop | Cervezas</title>
     <link rel="stylesheet" href="../../css/style_cervezas.css">
     <link rel="stylesheet" href="../../css/style_menu.css">
     <link rel="stylesheet" href="../../css/style_footer.css">
@@ -117,6 +117,7 @@
                             </button>
                         </div>
                     </a>
+                    
                 </div>
                 <div class="c-line-beers-2">
                     <a href="" class="c-beer img-beer-5">
@@ -210,6 +211,7 @@
                         </div>
                     </a>
                 </div>
+                
             </div>
         </div>
 
